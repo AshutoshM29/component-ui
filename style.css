@@ -22,3 +22,76 @@ html {
 h1 {
     margin: 5rem 0 1rem 0;
 }
+
+section {
+    padding: 2rem;
+    border: solid 0.5rem var(--turquoise-dominant);
+    border-radius: 2rem;
+    max-width: 70rem;
+}
+
+  .section-component {
+    margin: 5rem 0;
+  }
+  
+  .section-header {
+    margin: 3rem 0;
+  }
+  
+  .section-text {
+    margin: 1rem 0 2rem;
+    font-size: 1.8rem;
+  }
+
+:root { 
+  --white: white;
+
+  --blue-dominant: #031A4D;
+  --blue-mild: #354F87;
+  --blue-light: #9AAED9;
+  --blue-dim: #D8DFED;
+
+  --gray-dominant: #343a40;
+  --gray-mild: #6c757d;
+  --gray-light: #adb5bd;
+  --gray-lighter: #ced4da;
+
+  --green-dominant: #55a630;
+  --green-mild: #d4d700;
+  --green-light: #dddf00;
+  --green-lighter: #AAF53B;
+
+  --orange-dominant: #F0590E;
+  --orange-mild: #ff9500;
+  --orange-light: #ffb700;
+  --orange-lighter: #ffb600;
+
+  --red-dominant: #d30000;
+  --red-mild: #FA483E;
+  --red-light: #fab2b2;
+  --red-lighter: #ec5766;
+
+  --turquoise-dominant: #00b4d8;
+  --turquoise-mild: #56cfe1;
+  --turquoise-light: #64dfdf;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+s
+button {
+  cursor: pointer;
+}
+
+img {
+  object-fit: cover;
+}
