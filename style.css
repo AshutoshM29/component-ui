@@ -27,8 +27,7 @@ section {
     padding: 2rem;
     border: solid 0.5rem var(--turquoise-dominant);
     border-radius: 2rem;
-    max-width: 70rem;
-}
+    max-width: 70rem}
 
   .section-component {
     margin: 5rem 0;
@@ -36,11 +35,6 @@ section {
   
   .section-header {
     margin: 3rem 0;
-  }
-  
-  .section-text {
-    margin: 1rem 0 2rem;
-    font-size: 1.8rem;
   }
 
 :root { 
@@ -74,14 +68,6 @@ section {
   --turquoise-dominant: #00b4d8;
   --turquoise-mild: #56cfe1;
   --turquoise-light: #64dfdf;
-}
-
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 a {
