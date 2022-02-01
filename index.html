@@ -8,13 +8,16 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="Components/avatar.css">
     <link rel="stylesheet" href="Components/alert.css">
+    <link rel="stylesheet" href="Components/button.css">
+    <link rel="stylesheet" href="Components/badge.css">
+    <link rel="stylesheet" href="Components/card.css">
+    <link rel="stylesheet" href="Components/image.css">
+    <link rel="stylesheet" href="Components/input.css">
     <script src="https://kit.fontawesome.com/a15dea0e37.js" crossorigin="anonymous"></script>
   </head>
   <body>
  
 <h1>AVATARS</h1>
-
-  <!-- <h2 class="section-header">Avatars</h2> -->
 
 <section>
   <h2 class="section-header">Avatars w/ Different Sizes</h2>
@@ -111,7 +114,6 @@
 
 <!-- Alert -->
 
-  <!-- Alert Component Starts -->
 <h1>ALERTS</h1>
   <section class="section-component">
     <h2 class="section-header">Solid Alerts</h2>
@@ -188,5 +190,285 @@
 
   </section>
 
+  <!-- Buttons -->
+  <h1>Button</h1>
+  <section class="section-component">
+    <h2 class="section-header">Solid Buttons</h2>
+
+    <button class="btn btn-primary-solid">Primary</button>
+    <button class="btn btn-secondary-solid">Secondary</button>
+    <button class="btn btn-success-solid">Success</button>
+    <button class="btn btn-error-solid">Error</button>
+
+    <h2 class="section-head">Outline Buttons</h2>
+
+    <button class="btn btn-primary-outline">Primary</button>
+    <button class="btn btn-secondary-outline">Secondary</button>
+    <button class="btn btn-success-outline">Success</button>
+    <button class="btn btn-error-outline">Error</button>
+
+    <h2 class="section-head">Icon Button</h2>
+
+    <button class="btn btn-primary-solid">
+      <i class="fas fa-sign-in-alt"></i> Sign In
+    </button>
+
+    <button class="btn btn-success-outline">
+      <i class="fas fa-shopping-cart"></i> Add to Cart
+    </button>
+
+    <h2 class="section-head">Floating Button</h2>
+
+    <a href="#">
+      <button class="btn-floating"><i class="fas fa-arrow-up"></i></button
+    ></a>
+  </section>
+
+  <h1>Badge</h1>
+        <section class="section-component">
+          <h2 class="section-head">Badge on Icons</h2>
+  
+          <button class="badge-btn">
+            <i class="fas fa-home"></i>
+            <span class="badge-count bg-away">99+</span>
+          </button>
+  
+          <button class="badge-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="badge-count bg-online">2</span>
+          </button>
+  
+          <button class="badge-btn">
+            <i class="fas fa-bell"></i>
+            <span class="badge-count bg-dnd"> 99+ </span>
+          </button>
+
+          <h2 class="section-head">Badge on Avatars</h2>
+  
+          <div class="badge">
+            <img
+              class="avatar"
+              src="Assets/gamer.png"
+              alt="gamer"
+            />
+  
+            <span class="badge-status bg-online"></span>
+          </div>
+  
+          <div class="badge">
+            <img
+              class="avatar"
+              src="Assets/test.jpg"
+              alt="test"
+            />
+  
+            <span class="badge-status bg-dnd"></span>
+          </div>
+  
+          <div class="badge">
+            <img
+              class="avatar"
+              src="Assets/test.jpg"
+              alt="test"
+            />
+  
+            <span class="badge-status bg-away"></span>
+          </div>
+        </section>
+
+<h1>CARDS</h1>
+          <section class="section-component">
+            <h2 class="section-head">Horizontal Text Card</h2>
+    
+            <div class="card card-horizontal">
+              <img
+                class="card-horizontal-img"
+                src="Assets/t-shirt.jpg"
+                alt="t-shirt jpg"
+              />
+    
+              <div>
+                <h1 class="card-head">T-Shirts</h1>
+                <p class="card-text">
+                  T-shirts for men feature three main neck styles: the round neck, the V-neck and the polo neck.
+                </p>
+    
+                <div class="card-horizontal-footer">
+                  <button class="btn btn-primary-solid">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                  </button>
+                  <button class="btn btn-primary-solid">
+                    <i class="fas fa-bolt"></i> Buy Now
+                  </button>
+                  <button class="card-icon-btn">
+                    <i title="Add to Favorite" class="far fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+    
+            <!-- vertical card -->
+            <h2 class="section-head">Vertical Item Card</h2>
+    
+            <div class="card card-vertical">    
+              <img
+                class="card-vertical-img"
+                src="Assets/t-shirt.jpg"
+                alt="t-shirt jpg"
+              />
+    
+              <h1 class="card-head">T-Shirt Combo</h1>
+              <p class="card-text">
+                T-shirts for men feature three main neck styles: the round neck, the V-neck and the polo neck.
+              </p>
+    
+              <div class="card-vertical-footer">
+                <span class="current-price"><strong>₹450</strong></span>
+                <span class="earlier-price">₹2,500</span>
+                <span class="pct-off">82% off</span>
+                <button class="card-icon-btn">
+                  <i title="Add to Favorite" class="far fa-heart"></i>
+                </button>
+              </div>
+              
+              <button class="btn btn-primary-solid">
+                <i class="fas fa-shopping-cart"></i> Add to Cart
+              </button>
+              <button class="btn btn-primary-solid">
+                <i class="fas fa-bolt"></i> Buy Now
+              </button>
+            </div>
+
+          <!-- Text Overlay -->
+    
+            <h2 class="section-head">Text Overlay Card</h2>
+            <p class="section-text">You can hover to see overlay transition</p>
+    
+            <div class="card card-text-overlay card-vertical">
+              <img
+                class="card-vertical-img"
+                src="Assets/t-shirt.jpg"
+                alt="t-shirt jpg"
+              />
+    
+              <span class="card-vertical-img overlay-content">
+                <i class="fas fa-heart-broken"></i> SOLD OUT
+                </span>
+    
+                <h1 class="card-head">T-Shirt Combo</h1>
+                <p class="card-text">
+                  T-shirts for men feature three main neck styles: the round neck, the V-neck and the polo neck.
+                </p>
+      
+                <div class="card-vertical-footer">
+                  <span class="current-price"><strong>₹450</strong></span>
+                  <span class="earlier-price">₹2,500</span>
+                  <span class="pct-off">82% off</span>
+                  <button class="card-icon-btn">
+                    <i title="Add to Favorite" class="far fa-heart"></i>
+                  </button>
+                </div>
+                
+                <button class="btn btn-primary-solid">
+                  <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+                <button class="btn btn-primary-solid">
+                  <i class="fas fa-bolt"></i> Buy Now
+                </button>
+              </div>
+              </div>
+            </div>
+          </section>
+
+           <!-- Image -->
+
+<h1>IMAGES</h1>
+      <section class="section-component">
+        <h2 class="section-head">Round Image</h2>
+
+        <img
+          class="img img-round"
+          src="https://picsum.photos/400/400"
+          alt="picsum "
+        />
+        <img
+          class="img img-round"
+          src="https://picsum.photos/450/450"
+          alt="picsum"/>
+
+        <h2 class="section-head">Square Image</h2>
+
+        <img
+          class="img img-square"
+          src="https://picsum.photos/450/450"
+          alt="picsum"
+        />
+        <img
+          class="img img-square"
+          src="https://picsum.photos/400/400"
+          alt="picsum "
+        />
+
+        <h2 class="section-head">Responsive Image</h2>
+        <p class="section-text">
+          Resize your browser window, to see its responsiveness.
+        </p>
+
+        <div class="img-container">
+          <img
+            class="img-responsive"
+            src="https://picsum.photos/600/600"
+            alt="picsum"
+          />
+        </div>
+      </section>
+
+
+      <h1>INPUT</h1>
+      <section class="section-component">
+        <h2 class="section-head">Form Input</h2>
+
+        <form class="form">
+          <input
+            class="input"
+            type="email"
+            name="email-id"
+            placeholder="Enter Your Email"
+          />
+          <input
+            class="input"
+            type="password"
+            name="password"
+            placeholder="Enter Your Password"
+          />
+
+          <button class="btn btn-error-solid btn-squared">
+            <i class="fas fa-door-open"></i> Log In
+          </button>
+        </form>
+
+        <h2 class="section-head">Error Form Input</h2>
+
+        <form class="form">
+          <span class="msg-error">Please enter correct Email or Password</span>
+
+          <input
+            class="input input-error"
+            type="email"
+            name="email-id"
+            placeholder="Enter Your Email"
+          />
+          <input
+            class="input input-error"
+            type="password"
+            name="password"
+            placeholder="Enter Your Password"
+          />
+
+          <button class="btn btn-error-solid btn-squared">
+            <i class="fas fa-door-open"></i> Log In
+          </button>
+        </form>
+      </section>
 </body>
 </html>
